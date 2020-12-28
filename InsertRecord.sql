@@ -5,3 +5,7 @@ insert into [dbo].[EmployeePayroll] values
 (104, 'michel', 200000.00, '2008-07-05'),
 (105, 'Jackline', 400000.00, '2014-07-05'),
 (106, 'Andrew', 500000.00, '2014-07-05')
+
+use EmployeePayroll
+select * from EmployeePayroll
+
